@@ -1,0 +1,9 @@
+let favActorFirstName = "Yiran";
+let favActorLastName = "Zhou";
+let fullName = favActorFirstName + " " + favActorLastName;
+let uppercase = fullName.toUpperCase();
+let message = My Favorite Actor is ${uppercase}, ;
+message += his best show is When I fly towards you ;
+console.log(message);
+
+ output: My Favorite Actor is YIRAN ZHOU, his best show is When I fly towards you
